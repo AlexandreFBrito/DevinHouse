@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <style>
+        th,
+        td {
+            border: 1px solid gainsboro;
+        }
+
+        h1 {
+            text-align: center;
+        }
+        .conteiner{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <section class="topo"
+        style="display: flex; flex-direction: row; justify-content: space-around; border-bottom: 1px solid black; margin-bottom: 10px;">
+        <h1>Cadastro de Endereço</h1>
+    </section>
+    <section>
+        <form>
+            <fieldset>
+                <legend>Cadastro:</legend>
+                <div class="conteiner">
+                    <div style="padding: 10px;">
+                        <label for="fname">Nome:</label><br>
+                        <select name="nome" id="nome">
+                            <option value="Paulo">Paulo</option>
+                            <option value="Marcelo">Marcelo</option>
+                        </select><br>
+                        <label for="fname">Endereço:</label><br>
+                        <input type="text" name="" id="endereco">
+                    </div>
+
+                    <div style="padding: 10px;">
+                        <label for="fname">Residencial/comercial:</label><br>
+                        <select name="comercial" id="comercial">
+                            <option value="Residencial">Residencial</option>
+                            <option value="Comercial">Comercial</option>
+                        </select><br><br>
+                        <button onclick="inserirDados()">Gravar</button>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+    <section
+        style="display: flex; flex-direction: column; justify-content: center; border: 1px solid black; margin-top: 5px;">
+        <h1>Lista de Endereços</h1>
+        <table id="lista">
+            <tr>
+                <td><strong>Nome</strong></td>
+                <td><strong>Endereço</strong></td>
+                <td><strong>Residencial/comercial</strong></td>
+                <td><strong>Ações</strong></td>
+            </tr>
+
+            <tr>
+                <td>Paulo</td>
+                <td>Residencial</td>
+                <td>Qualquer endereço</td>
+                <td><i class="fa-solid fa-trash-can"></i></td>
+            </tr>
+
+        </table>
+    </section>
+</body>
+
+</html>
