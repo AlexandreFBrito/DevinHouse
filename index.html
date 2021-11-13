@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste LocalStorage</title>
+    <script>
+        /**
+        //se o navegador suporta o LocalStorage
+        if (typeof(Storage)!="undefine"){
+
+            //insere dados no localstorage
+            localStorage.setItem("Canal", "LocalStorage");
+            
+            //remove  item do localStorage
+            //localStorage.removeItem("Canal", "LocalStorage");
+            
+            //recupero dado do localStorage
+            var vCanal = localStorage.getItem("Canal");
+            
+            //escrevo na tela o valor recuperado
+            document.write(vCanal);
+        }**/
+        var listaCompleta = [];
+        var local;
+
+        function dados() {
+            var input = document.getElementById('nome');
+            var input1 = document.getElementById('status');           
+            
+            //capturando os objetos
+            var lista = new Object();
+            lista.nome = input.value;
+            lista.status = input1.value;
+
+            //inserindo os objetos na lista
+            listaCompleta.push(lista);
+
+            //convertendo em string
+            local = JSON.stringify(listaCompleta);
+            
+            //inserindo no localStorage
+            localStorage.setItem("lista", local);
+
+            input.value = "";
+            input1.value = "";
+        }
+
+
+        function mostrarDados(){
+            var dados = JSON.parse(local);
+            for (var i = 0; i < dados.length; i++){
+                document.getElementById("texto").innerText = dados[i].nome;
+            }
+            
+            
+            
+
+        }
+
+    </script>
+</head>
+
+<body>
+    <button onclick="dados()">Inserir dados</button><br>
+    <input type="text" name="" id="nome"><br>
+    <input type="text" name="" id="status"><br>
+    <button onclick="mostrarDados()">Mostrar Dados</button><br>
+    <div id="texto"></div>
+</body>
+
+</html>
