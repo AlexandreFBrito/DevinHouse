@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+		input[type=checkbox]:checked + label {
+		text-decoration: line-through;
+	}
+	</style>
+
+</head>
+<body>
+<div id='inserir'>
+<div><input type="checkbox" id="C3" /><label for="C3">Checkbox três</label></div>
+</div>
+<script type="text/javascript">
+	    for (var i = 0; i <= 10; i++) {
+	    	
+	    var celula1 = '<input type="checkbox" id="ch'+i+'" value="'+i+'" >';
+        var celula2 = '<label class="ch'+i+'" >Celula'+i+'</label>';
+        var div = '<div>'+ celula1+celula2 +'</div>'
+
+       document.getElementById('inserir').innerHTML = div;
+       }
+
+</script>	
+</body>
+</html>
