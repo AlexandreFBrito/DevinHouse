@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="./jxande.js"></script>
+
+    <script>
+        //acessando a blibioteca externa
+        window.onload = function () {
+            /*try {
+                const body = get("body");
+                body.style.background = "black";
+
+            } catch (e) {
+                const containerErro = get(".mensagemDeErro")
+                containerErro.innerHTML = e;
+                containerErro.style.fontSize = "50px";
+            }*/
+            try {
+                modificaCSS("footer", function (styleOfElement) {
+                    styleOfElement.backgroud = "cyan";
+                    styleOfElement.color = "white"
+                });
+                //    modificaCSS("footer", "background:black; color: white;");
+                //modificaCSS("footer", {background:"black", color: "white"});
+
+                addClickAction("footer", function(e){
+                    alert("clicou no footer");
+                });
+
+                addGenericAction("footer", "mouseover", function(e){
+                    console.log(e.y);
+                    console.log(e.x);
+                });
+                
+            } catch (e) {
+                const containerErro = get(".mensagemDeErro")
+                containerErro.innerHTML = e;
+                containerErro.style.fontSize = "50px";
+            }
+
+
+        }
+
+
+    </script>
+</head>
+
+<body>
+    <footer class="mensagemDeErro" style="height: 800px;"></footer>
+</body>
+
+</html>

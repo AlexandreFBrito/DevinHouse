@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de memes</title>
+    <style>
+        main {
+            min-height: 400px;
+            flex-flow: row wrap;
+            display: flex;
+        }
+
+        footer,
+        section {
+            margin: auto;
+            height: 400px;
+            width: 49%;
+
+        }
+
+        footer img {
+            width: 60%;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section>
+            <p>
+                <b>Texto superior</b><br>
+                <input type="text" name="" id="superior"><br>
+            </p>
+            
+            <p>
+                <b>texto inferior</b><br>
+                <input type="text" name="" id="inferior"><br>
+            </p>
+            
+
+            <b>Qual o meme?</b><br>
+
+            <label>
+                <img src="http://apimeme.com/meme?meme=Afraid-To-Ask-Andy&top=&bottom=" width="60px" >
+                <input type="radio" name="qualMeme" id="" value="Afraid-To-Ask-Andy" checked>
+            </label>
+
+            <label>
+                <img src="http://apimeme.com/meme?meme=Ancient-Aliens&top=&bottom=" width="60px">
+                <input type="radio" name="qualMeme" id="" value="Ancient-Aliens">
+            </label>
+
+            <label>
+                <img src="http://apimeme.com/meme?meme=Angry-Toddler&top=&bottom=" width="60px">
+                <input type="radio" name="qualMeme" id="" value="Angry-Toddler">
+            </label>
+
+            <button id="gerador">Gerar meme</button>
+        </section>
+        <footer>
+            <img src="http://apimeme.com/meme?meme=Afraid-To-Ask-Andy&top=&bottom=">
+        </footer>
+    </main>
+
+</body>
+<script src="script.js"></script>
+
+</html>
