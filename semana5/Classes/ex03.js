@@ -84,4 +84,4 @@ console.log(GameOfThrones.toJason());
 const dancedragon = new HQ("Batman: The Killing Joke", "illustrator;", 1988, "Brian Bolland, John Higgins");
 console.log(dancedragon.toJason());
 const sortedBooks = Book.sortBooksByDate([GameOfThrones, dancedragon]);
-//console.log(sortedBooks);
+console.log(sortedBooks);
