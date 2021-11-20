@@ -60,13 +60,13 @@ class Book {
 }
 
 class HQ extends Book{
-    #illustrator
+    illustrator
     constructor(title, author, year, illustrator){
         super(title, author, year);
-        this.#illustrator = illustrator;
+        this.illustrator = illustrator;
     }
     get coverart(){
-        return this.#illustrator;
+        return this.illustrator;
     }
     toJason(){
         return{
@@ -83,5 +83,5 @@ const GameOfThrones = new HQ("Batman – Year One ", "Frank Miller", 1988, "Davi
 console.log(GameOfThrones.toJason());
 const dancedragon = new HQ("Batman: The Killing Joke", "illustrator;", 1988, "Brian Bolland, John Higgins");
 console.log(dancedragon.toJason());
-const sortedBooks = HQ.sortBooksByDate([GameOfThrones, dancedragon]);
+const sortedBooks = Book.sortBooksByDate([GameOfThrones, dancedragon]);
 //console.log(sortedBooks);
