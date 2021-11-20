@@ -7,11 +7,21 @@ class Book {
     }
 
     loanBook() {
-        this.loaned = true;
+        if(this.loaned == true){
+            return 'Esse livro está emprestado'
+        }else{
+            this.loaned = true;
+            return 'Livro devolvido'
+        }
     }
 
     returnBook() {
-        this.loaned = false;
+        if(this.loaned == false){
+            return 'Esse livro não  está emprestado'
+        }else{
+            this.loaned = false;
+            return 'Livro devolvido'
+        }
     }
 
     static sortBooksByDate(booksArray) {
