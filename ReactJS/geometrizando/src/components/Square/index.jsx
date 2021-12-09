@@ -1,16 +1,11 @@
 function Square(props){
-    
     return(
-    //utiliza quando tem mais de uma div sem um pai
-    <>
-        <div className="container">
-            <span>{props.titulo}</span>
+        <div>           
             <div 
-                style={{background: props.background, width: props.largura}}
+                style={{background: props.background}}
                 className="square"    
             ></div>
         </div>
-    </>
     );
 }
 

@@ -1,19 +1,12 @@
-//com arrow function
-//com desestruturação
-const circle = ({titulo, background}) =>{
-    
+const Circle = (props) =>{
     return(
-    //utiliza quando tem mais de uma div sem um pai
-    <>
         <div className="container">
-            <span>{titulo}</span>
             <div 
-                style={{background: background}}
+                style={{background: props.background}}
                 className="circle"    
             ></div>
         </div>
-    </>
     );
 }
 
-export default circle
+export default Circle
