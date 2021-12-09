@@ -3,6 +3,7 @@ import Rectangle from '../Rectangle';
 import Square from '../Square';
 import Triangle from '../Triangle';
 import Circle from '../Circle';
+import propTypes from 'prop-types';
 
 const Figure = ({ type, titulo, bg}) =>{
 
@@ -16,6 +17,11 @@ const Figure = ({ type, titulo, bg}) =>{
         </>
     );
 
+}
+
+Figure.propTypes={
+    type: propTypes.string.isRequired,
+    bg: propTypes.string.isRequired
 }
 
 export default Figure
