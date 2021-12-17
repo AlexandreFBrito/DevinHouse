@@ -15,7 +15,7 @@ function Temperatura({cidade, pais, temperatura, tempo}){
                 <div className="temp">
                     {Math.round(temperatura)}°c
                 </div>
-                <div className="weather">{tempo}</div>
+                <div className="weather">{tempo.toUpperCase()}</div>
             </div>
         </div>
     );
