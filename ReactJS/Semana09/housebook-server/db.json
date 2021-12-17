@@ -1,0 +1,75 @@
+{
+  "alunos": [
+    {
+      "id": 1,
+      "nome": "Danilo Sales",
+      "avatar": "https://github.com/danilosales.png",
+      "profissao": "Software Engineer",
+      "bio": "Desenvolvedor Java, Javascript, ReactJS e Go"
+    },
+    {
+      "id": 2,
+      "nome": "Daniel Dalcastagne",
+      "avatar": "https://github.com/dalcastagned.png",
+      "profissao": "Desenvolvedor de Software",
+      "bio": " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus veritatis sed quidem earum aliquid quod a non accusantium? Voluptates cumque"
+    },
+    {
+      "id": 3,
+      "nome": "Rafael Pereira",
+      "avatar": "https://github.com/rafael-pc.png",
+      "profissao": "Wannabe Dev",
+      "bio": "Aluno DevInHouse"
+    },
+    {
+      "id": 4,
+      "nome": "Johann Carlos",
+      "avatar": "https://github.com/Johanncf.png",
+      "profissao": " Dev/Estudante Front-End",
+      "bio": " Bom dia"
+    },
+    {
+      "id": 5,
+      "nome": "Rafael Feller",
+      "avatar": "https://github.com/rafafeller.png",
+      "profissao": "Estudante de ReactJS",
+      "bio": "Decolando !!.."
+    },
+
+    {
+      "id": 6,
+      "nome": "Gabriel Beserra",
+      "avatar": "https://github.com/gbeserra95.png",
+      "profissao": "Dev",
+      "bio": "Desenvolvedor artesanal"
+    },
+    {
+      "id": 7,
+      "nome": "Claudio",
+      "avatar": "https://github.com/ClaudioDev233.png",
+      "profissao": "Desenvolvedor",
+      "bio": "Futuro desenvolvedor de sistemas."
+    },
+    {
+      "id": 8,
+      "nome": "Deywid",
+      "avatar": "https://github.com/deywid.png",
+      "profissao": "Desenvolvedor no futuro próximo",
+      "bio": "Coordenador de loja migrando para a carreira Dev e graças ao DevInHouse, isso será logo!"
+    },
+    {
+      "id": 9,
+      "nome": "Gabriel Mattos",
+      "avatar": "https://github.com/GabrielMattos06.png",
+      "profissao": "Professor de programação",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus veritatis sed quidem earum aliquid quod a non accusantium? Voluptates cumque"
+    },
+    {
+      "id": 10,
+      "nome": "Andre Motta",
+      "avatar": "https://github.com/AndreMotta25.png",
+      "profissao": "Dev/Estudante FullStack",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+    }
+  ]
+}
