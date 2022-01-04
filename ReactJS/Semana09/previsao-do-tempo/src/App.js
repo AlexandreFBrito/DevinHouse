@@ -3,7 +3,7 @@ import './App.css';
 import Temperatura from './components/Temperatura';
 
   const api ={
-    key: "Adicionar key",
+    key: "053d8d774f337698c829f42b7afc8adf",
     base: "https://api.openweathermap.org/data/2.5/"
   }
 
