@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M1S03EX7</title>
+</head>
+
+<body style="background-color: white;">
+    <section id="container" style="display: flex; align-items: center;">
+        <div style="margin: auto;">
+            <img id="lampada" src="luz-apagada.png" alt="" style="cursor: pointer;" onclick="ligaDesliga()">
+            
+        </div>
+    </section>
+
+<script>
+    
+    var estado = localStorage.getItem('estado');
+    
+    if (estado === '' || estado === null){
+        estado = 'false';
+    }
+
+    var imgLampada = document.querySelector("#lampada");
+    var body = document.querySelector("body");
+
+    function local(){
+        
+        if (estado === 'true'){
+            imgLampada.setAttribute('src', 'luz-acesa.png');
+            body.style.backgroundColor = "black";         
+        }else{
+            imgLampada.setAttribute('src', 'luz-apagada.png');
+            body.style.backgroundColor = "white";
+        }
+    }   
+    
+    local();
+
+    function ligaDesliga(){
+        
+        if (estado === 'false'){
+            imgLampada.setAttribute('src', 'luz-acesa.png');
+            body.style.backgroundColor = "black";
+            estado = 'true';
+            localStorage.setItem('estado', estado);            
+        }else{
+            imgLampada.setAttribute('src', 'luz-apagada.png');
+            body.style.backgroundColor = "white";
+            estado = 'false';
+            localStorage.setItem('estado', estado);
+        }
+    }
+    
+</script>
+</body>
+</html>

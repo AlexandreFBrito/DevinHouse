@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M1S03EX5</title>
+</head>
+
+<body style="background-color: white;">
+    <section id="container" style="display: flex; align-items: center;">
+        <div style="margin: auto;">
+            <img id="lampada" src="luz-apagada.png" alt="" style="cursor: pointer;" onclick="ligaDesliga()">
+            
+        </div>
+    </section>
+</body>
+<script>
+    let estado = false;
+    let imgLampada = document.querySelector("#lampada");
+    let body = document.querySelector("body");
+    function ligaDesliga(){
+        
+        if (!estado){
+            imgLampada.setAttribute('src', 'luz-acesa.png');
+            estado = true;
+            body.style.backgroundColor = "black";
+        }else{
+            imgLampada.setAttribute('src', 'luz-apagada.png');
+            body.style.backgroundColor = "white";
+            estado = false;
+        }
+    }
+</script>
+
+</html>

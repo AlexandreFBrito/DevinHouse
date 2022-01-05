@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M1S03EX09</title>
+</head>
+
+<body style="background-color: white;">
+    <section id="container" style="display: flex; align-items: center;">
+        <div style="margin: auto;">
+            <img id="lampada" src="luz-apagada.png" alt="" style="cursor: pointer;">
+            
+        </div>
+    </section>
+
+<script>
+    var estado = false;
+
+    const imgLampada = document.querySelector("#lampada");
+    const body = document.querySelector("body");
+
+    setInterval( function(){
+
+        if (!estado){
+            imgLampada.setAttribute('src', 'luz-acesa.png');
+            body.style.backgroundColor = "black";
+            estado = true;           
+        }else{
+            imgLampada.setAttribute('src', 'luz-apagada.png');
+            body.style.backgroundColor = "white";
+            estado = false;
+        }
+
+    }, 2000);
+    
+</script>
+</body>
+</html>
