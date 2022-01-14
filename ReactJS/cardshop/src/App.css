@@ -52,32 +52,58 @@
   color: #FFF;
 }
 
-/* CSS MENU*/
-.menu{
+
+/* CSS MENU */
+
+.menu {
   height: 44px;
   background: #EC6D08;
   display: flex;
   justify-content: space-between;
-  padding: 15px 10px;
   align-items: center;
+  padding: 15px 10px;
 }
 
-.menu-title{
+.menu-title {
   color: #FFF;
   font-size: 24px;
   font-weight: bold;
-  
 }
 
-.menu-list{
+.menu-list {
   display: flex;
   gap: 10px;
   list-style: none;
 }
 
-.menu-list-item{
-  color: #FFF;
-  font-weight: bold;
-  font-size: 16px;
-  text-decoration: none;
+.menu-list-item {
+ color: #FFF;
+ font-weight: bold;
+ font-size: 16px;
+ text-decoration: none; 
+}
+
+/* CSS TABLE */
+
+.table-cart {
+  width: 100%;
+  background: #FFF;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.table-cart thead, th {
+  color: #999;
+  text-align: left;
+  padding: 12px;
+}
+
+.table-cart tbody, th {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.table-image {
+  height: 100px;
 }

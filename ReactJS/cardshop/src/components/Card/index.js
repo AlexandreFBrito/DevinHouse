@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function Card({type, image, name}) {
   return (
     <div className='item-card'>
