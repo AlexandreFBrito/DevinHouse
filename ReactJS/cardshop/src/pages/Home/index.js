@@ -1,6 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import {CategoryItem} from './styles';
+
+import Container from '../../components/Container';
+
+
 const TYPES = [
   "Aqua",
   "Beast-Warrior",
@@ -19,14 +24,14 @@ const TYPES = [
 
 function Home() {
   return (
-    <div className='container-app'>
+    <Container>
       {TYPES.map((type) =>
-        <div className='category-item' key={type}>
+        <CategoryItem>
           <Link to={`/cards/${type}`}>{type}</Link>
-        </div>
+        </CategoryItem>
         )
         }
-    </div>
+    </Container>
 
   );
 }
