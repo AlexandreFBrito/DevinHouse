@@ -1,22 +1,25 @@
 import React, { useState } from 'react';
-import Input from '../../components/Input';
-import Container from '../../components/Container';
-import Textarea from '../../components/Textarea';
-import { Form } from './style';
-import Select from '../../components/Select';
-import DatePicker from 'react-datepicker';
 
+import Input from '../../components/Input';
+import Textarea from '../../components/Textarea';
+import Select from '../../components/Select';
+import InputDate from '../../components/InputDate';
+
+import Container from '../../components/Container';
+
+import { Form } from './styles';
 
 function Checkout() {
+
+  const [startDate, setStartDate] = useState(new Date());
+
   const [color, setColor] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [comentario, setComentario] = useState('');
-  const [erros, setErrors] = useState({});
-
+  const [errors, setErrors] = useState({});
 
   function handleSubmit(event) {
-    event.preventDefault()
+    event.preventDefault();
 
     let currentErrors = {};
 
@@ -25,80 +28,74 @@ function Checkout() {
     }
 
     if (!password) {
-      currentErrors.senha = 'Senha é obrigatória';
+      currentErrors.password = 'Senha é obrigatória';
     }
 
-    setErrors(currentErrors);
+    // Yup
 
+    setErrors(currentErrors);
   }
 
   return (
-
     <Container>
+
       <Form onSubmit={handleSubmit}>
-        <Input
-          label='Email'
-          type={'text'}
+
+        <InputDate
+          label="Qual o seu aniversário ?"
+          selected={startDate}
+          onChange={(date) => setStartDate(date)}
+        />
+
+        <Textarea
+          label="Comentário"
           value={email}
           onChange={(event) => {
             setEmail(event.target.value)
           }}
-          placeholder='Digite seu email'
-          errorMessage={erros.email}
-
-
+          placeholder="Digite seu email"
+          errorMessage={errors.email}
         />
 
         <Input
-          label='Senha'
-          type={'password'}
+          type="date"
+          label="Senha"
           value={password}
           onChange={(event) => {
             setPassword(event.target.value)
           }}
-          placeholder='Digite sua senha'
-          errorMessage={erros.senha}
+          placeholder="Digite sua senha"
+          errorMessage={errors.password}
         />
 
-        <Textarea
-          label='Comentário'
-          type={'textarea'}
-          value={comentario}
-          onChange={(event) => {
-            setComentario(event.target.value)
-          }}
-          errorMessage={erros.senha}
-        />
-        {color}
         <Select
-          label="Qual sua cor favorita"
+          label="Qual sua cor favorita ?"
           value={color}
           onChange={(e) => setColor(e.target.value)}
-          description="Escolha sua cor favorita"
+          description="Qual é sua cor favorita ? "
           options={
-            [{
-              label: 'Vermelho',
-              vaule: 'red'
-            },
-            {
-              label: 'Azul',
-              vaule: 'blue'
-            },
-            {
-              label: 'Branco',
-              vaule: 'white'
-            }]
+            [
+              {
+                label: 'Vermelho',
+                value: 'red'
+              },
+              {
+                label: 'azul',
+                value: 'blue'
+              },
+              {
+                label: 'Branco',
+                value: 'white'
+              }
+            ]
           }
         />
-        <DatePicker
-          selected=''
-          onSelect=''
-          onChange=''
-        />
-        <button type='submit'>Salvar</button>
-      </Form>
-    </Container>
 
+        <button type="submit">Salvar</button>
+      </Form>
+
+
+    </Container>
   );
 }
 
