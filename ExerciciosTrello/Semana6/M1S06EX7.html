@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        #container {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #calc {
+            display: flex;
+            border: 1px solid rgb(69, 69, 69);
+            width: 400px;
+            height: 200px;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 5px;
+        }
+    </style>
+    <script type="module" src="index.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="calc">
+            <label>Calculadora</label>
+            <label>Número 1
+                <input type="text" id="num1">
+            </label>
+            <label>Número 2
+                <input type="text" id="num2">
+            </label>
+            <div>
+                <button id="somar">+</button>
+                <button id="subtrair">-</button>
+                <button id="mult">*</button>
+                <button id="dividir">/</button>
+            </div>
+            <label id="total">Total:</label>
+        </div>
+    </div>
+    
+</body>
+
+</html>

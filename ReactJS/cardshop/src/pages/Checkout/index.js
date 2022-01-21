@@ -58,7 +58,7 @@ function Checkout() {
         />
 
         <Input
-          type="date"
+          type="text"
           label="Senha"
           value={password}
           onChange={(event) => {

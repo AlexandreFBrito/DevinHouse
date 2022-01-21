@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        body{
+            height: 100vh;     
+            margin: 0;
+            padding: 0;
+        }
+        #container{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;            
+            align-items: center;            
+        }
+        #arquivo {
+            display: flex;
+            border: 1px solid rgb(69, 69, 69);
+            width: 400px;
+            height: 200px;
+            justify-content: center;  
+            align-items: center;
+        }
+    </style>
+    <script src="M1S06EX6.js"></script> 
+</head>
+
+<body>
+    <div id="container">
+        <div id="arquivo" ondrop="drag_handler(event)" ondragover="dragover_handler(event);">
+            <p ondrop="drag_handler(event)" ondragover="dragover_handler(event);">Arraste um arquivo e solte..</p>
+        </div>
+    </div>
+       
+</body>
+
+</html>
