@@ -1,18 +1,27 @@
 import React from 'react';
+import {
+  ContainerSelect,
+  DescriptionSelect,
+  List
+} from './styles';
 
-import { ContainerSelect, DescriptionSelect, List } from './styles';
-
-function Select({label, description, options, ...otherProps}) {
-  return(
-        <ContainerSelect>
-            <DescriptionSelect>{label}</DescriptionSelect>
-            <List {...otherProps}>
-                <option value="" selected disabled>{description}</option>
-                {options.map(option => <option value={option.value}>{option.label}</option>)}
-            </List>
-        </ContainerSelect>  
-    
-    );
+function Select({ label, options, description, ...otherProps }) {
+  
+  return (
+    <ContainerSelect>
+     
+      <DescriptionSelect>{label}</DescriptionSelect>
+      <List {...otherProps} selected="">
+        <option disabled value="">{description}</option>
+        {options.map(option => <option
+          key={option.value}
+          value={option.value}>
+          {option.label}
+        </option>
+        )}
+      </List>
+    </ContainerSelect>
+  );
 }
 
-export default Select;
+export default React.memo(Select);

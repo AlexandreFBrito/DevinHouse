@@ -1,99 +1,115 @@
-import React, { useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
+
 
 import Input from '../../components/Input';
 import Textarea from '../../components/Textarea';
 import Select from '../../components/Select';
 import InputDate from '../../components/InputDate';
-
+import Checkbox from '../../components/Checkbox';
+import Radio from '../../components/Radio';
+import {toast} from 'react-toastify';
 import Container from '../../components/Container';
 
 import { Form } from './styles';
+import { formattedValue } from '../../utils/formattedValue';
 
 function Checkout() {
 
-  const [startDate, setStartDate] = useState(new Date());
+  const [name, setName] = useState('')
+  const [cardNumber, setCardNumber] = useState('')
+  const [cvv, setCvv] = useState('')
+  const [month, setMonth] = useState('')
+  const [year, setYear] = useState('')
 
-  const [color, setColor] = useState('');
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-  const [errors, setErrors] = useState({});
 
-  function handleSubmit(event) {
+  const [list, setList] = useState([])
+
+  useEffect(() => {
+    async function handleGetPedidos() {
+      const response = await fetch('http://localhost:3333/pedidos')
+      const data = await response.json()
+      setList(data)
+    }
+    handleGetPedidos();
+  }, [])
+
+  async function handleSubmit(event) {
     event.preventDefault();
 
-    let currentErrors = {};
-
-    if (!email) {
-      currentErrors.email = 'Email é obrigatório';
+    // GET 
+    try {
+      await fetch('http://localhost:3335/pedidos',
+        {
+          method: 'POST',
+          body: JSON.stringify({
+            name: name,
+            card_number: cardNumber,
+            cvv: cvv,
+            month: month,
+            year: year
+          }),
+          headers: { 'Content-Type': 'application/json' },
+        },
+      )
+      toast.success('Cadastrado com sucesso')
+    } catch (error) {
+      toast.error('Deu ruim')
     }
-
-    if (!password) {
-      currentErrors.password = 'Senha é obrigatória';
-    }
-
-    // Yup
-
-    setErrors(currentErrors);
+    // POST - CRIAR
   }
+
+
 
   return (
     <Container>
 
+
+      {list.map(item => <p>{item.name}</p>)}
+
+
       <Form onSubmit={handleSubmit}>
 
-        <InputDate
-          label="Qual o seu aniversário ?"
-          selected={startDate}
-          onChange={(date) => setStartDate(date)}
-        />
-
-        <Textarea
-          label="Comentário"
-          value={email}
-          onChange={(event) => {
-            setEmail(event.target.value)
-          }}
-          placeholder="Digite seu email"
-          errorMessage={errors.email}
-        />
-
         <Input
-          type="text"
-          label="Senha"
-          value={password}
-          onChange={(event) => {
-            setPassword(event.target.value)
-          }}
-          placeholder="Digite sua senha"
-          errorMessage={errors.password}
+          label="Nome do titular"
+          value={name}
+          onChange={(event) => setName(event.target.value)}
         />
 
-        <Select
-          label="Qual sua cor favorita ?"
-          value={color}
-          onChange={(e) => setColor(e.target.value)}
-          description="Qual é sua cor favorita ? "
-          options={
-            [
-              {
-                label: 'Vermelho',
-                value: 'red'
-              },
-              {
-                label: 'azul',
-                value: 'blue'
-              },
-              {
-                label: 'Branco',
-                value: 'white'
-              }
-            ]
-          }
+        <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+          <Input
+            label="Nº do cartão"
+            value={cardNumber}
+            onChange={(event) => setCardNumber(formattedValue(event.target.value, 'number-card'))}
+            flexBasis="45%"
+          />
+
+          <Input
+            label="CVV"
+            value={cvv}
+            onChange={(event) => setCvv(formattedValue(event.target.value, 'cvv'))}
+            flexBasis="45%"
+          />
+
+        </div>
+
+        <InputDate
+          label="Data de expiração"
+          selected={month}
+          onChange={(month) => setMonth(month)}
+          showMonthYearPicker
+          dateFormat="MMMM"
+        />
+
+        <InputDate
+          label="Ano"
+          selected={year}
+          onChange={(year) => setYear(year)}
+          showYearPicker
+          dateFormat="yyyy"
         />
 
         <button type="submit">Salvar</button>
       </Form>
-
 
     </Container>
   );

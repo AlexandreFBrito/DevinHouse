@@ -5,9 +5,9 @@ import { ContainerDefault } from './styles';
 function Container({children}) {
   return (
     <ContainerDefault>
-        {children}
+      {children}
     </ContainerDefault>
-    );
+  );
 }
 
 export default Container;

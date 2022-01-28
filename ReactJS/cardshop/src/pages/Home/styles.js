@@ -10,15 +10,16 @@ export const CategoryItem = styled.div`
 
   display: flex;
   align-items: center;
+  
+  a {
+    font-size: 26px;
+    color: #FFF; 
+    text-decoration: none;
+    font-weight: bold;
+  };
 
-    a{
-        font-size: 16px;
-        color: #FFF;
-        text-decoration: none;
-    }
-
-  &:hover{
-      background: #0C1025;
-      zoom: 1.2;
-  }
+  &:hover {
+    background: #0C1025;
+    zoom: 1.1;
+  };
 `;
