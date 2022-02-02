@@ -38,7 +38,7 @@ function Checkout() {
 
     // GET 
     try {
-      await fetch('http://localhost:3335/pedidos',
+      await fetch('http://localhost:3333/pedidos',
         {
           method: 'POST',
           body: JSON.stringify({
