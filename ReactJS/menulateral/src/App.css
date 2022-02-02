@@ -1,13 +1,13 @@
 .App {
   width: 100vw;
   height: 100vh;
+  display: flex;
 }
 
 body{
   margin: 0;
   padding: 0;
 }
-
 
 .Sidebar{
   height: 100%;
@@ -16,7 +16,7 @@ body{
 }
 
 .SidebarList{
-  height: auto;
+  height: auto; 
   padding: 0;
   width: 100%;
 }
@@ -44,6 +44,7 @@ body{
   flex: 30%;
   display: grid;
   place-items: center;
+  
 }
 
 .row #title{

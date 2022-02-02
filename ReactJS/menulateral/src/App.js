@@ -1,10 +1,12 @@
+import { Dashboard } from '@mui/icons-material';
 import './App.css';
-import Sidebar from "./Components/Sidebar";
+import Menu from "./Components/Menu";
 
 function App() {
   return (
     <div className="App">
-      <Sidebar></Sidebar>
+      <Menu></Menu>
+      <Dashboard></Dashboard>
     </div>
   );
 }
