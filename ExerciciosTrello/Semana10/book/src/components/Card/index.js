@@ -1,12 +1,19 @@
 import React from 'react';
-import {ItemCard, ItemCardPhoto, ItemCardName, ItemCardPrice} from './styles.js';
-
+import {ItemCard, ItemCardPhoto, ItemCardName, ItemCardPrice, ItemButton} from './styles.js';
+import { Link } from 'react-router-dom';
 function Card({ data }) {
   return (
     <ItemCard>
-      <ItemCardPhoto src='https://images-na.ssl-images-amazon.com/images/I/51DaS6hNpPL._SY344_BO1,204,203,200_QL70_ML2_.jpg'></ItemCardPhoto>
-      <ItemCardName>Teste</ItemCardName>
-      <ItemCardPrice>R$9.99</ItemCardPrice>
+      <ItemCardPhoto src={data.image}></ItemCardPhoto>
+      <ItemCardName>{data.title}</ItemCardName>
+      <ItemCardPrice>{
+              new Intl.NumberFormat(
+                'pt-BR',
+                { style: 'currency', currency: 'BRL' }
+              ).format(data.price)
+            }</ItemCardPrice>
+      <ItemButton>Comprar</ItemButton>
+      <ItemButton><Link to={`/details/${data.id}`} className='buttons-cart'>Detalhes</Link></ItemButton>
     </ItemCard>
     );
 }

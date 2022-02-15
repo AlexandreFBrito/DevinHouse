@@ -5,6 +5,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px 10px;
+  
 }
 
 .menu-title {
@@ -14,8 +15,13 @@
 }
 
 .menu-total {
-    color: #FFF;
+    color: #FFF ;
     font-size: 24px;
     font-weight: bold;
-    text-decoration: none; 
+    text-decoration: none;     
+    
+  }
+  .buttons-cart{
+    color: #FFF ;
+    text-decoration: none;  
   }
