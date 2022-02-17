@@ -1,7 +1,11 @@
-import React from 'react';
+import React,{useContext} from 'react';
 import {ItemCard, ItemCardPhoto, ItemCardName, ItemCardPrice, ItemButton} from './styles.js';
 import { Link } from 'react-router-dom';
+import { CartContext } from '../../contexts/Cart';
 function Card({ data }) {
+
+  const { addItem } = useContext(CartContext);
+
   return (
     <ItemCard>
       <ItemCardPhoto src={data.image}></ItemCardPhoto>
@@ -12,7 +16,7 @@ function Card({ data }) {
                 { style: 'currency', currency: 'BRL' }
               ).format(data.price)
             }</ItemCardPrice>
-      <ItemButton>Comprar</ItemButton>
+      <ItemButton onClick={() => {addItem(data)}}>Comprar</ItemButton>
       <ItemButton><Link to={`/details/${data.id}`} className='buttons-cart'>Detalhes</Link></ItemButton>
     </ItemCard>
     );

@@ -2,10 +2,11 @@ import React,{useEffect, useState} from 'react';
 import Card from '../../components/Card';
 import Container from '../../components/Container';
 
-
 function Home() {
 
-  const [books, setbooks] = useState([])
+  
+
+  const [books, setbooks] = useState([]);
 
   useEffect(() => {
     async function handleGetCard() {

@@ -1,17 +1,43 @@
-import React from 'react';
+import React,{useEffect, useState, useContext} from 'react';
+import { useParams } from 'react-router-dom';
 import { DivConteudo, Container, Image, DivDescription, BookName, BookPrice, BookDescription, ItemButton } from './styles';
+import { CartContext } from '../../contexts/Cart';
 
+const arrayVazio = {id: 0, title: '', price: 0, image: '', description: ''}
 
 function Details() {
+
+  const params = useParams();
+
+  const [details, setDetails] = useState([arrayVazio]);
+  
+  const { addItem } = useContext(CartContext);
+
+  useEffect(() => {
+    async function handleGetBooks() {
+      let response = await fetch(`http://localhost:3333/books?id=${params.idBook}`)      
+      let data = await response.json();
+      setDetails(data);
+    }
+
+    handleGetBooks()
+  }, [params.idBook]);
+ 
   return (
+    
     <Container>
       <DivConteudo>
-        <Image src='https://cdn.shopify.com/s/files/1/0155/7645/products/OretornodocangaceiroJavaScript_ebook_large.jpg?v=1631654115' />
+        <Image src={details[0].image} />
         <DivDescription>
-          <BookName>Cangaceiro JavaScript</BookName>
-          <BookPrice>R$90.99</BookPrice>
-          <BookDescription>O paradigma funcional está cada vez mais presente em frameworks modernos. E com o JavaScript em constante evolução, os desenvolvedores cangaceiros estão sempre aprendendo novas formas de aprimorar a manutenção e legibilidade de seus códigos, armando-se de conceitos e técnicas para se aventurar em terras ainda mais avançadas e frameworks que possuem grande demanda no atual mercado de trabalho.O paradigma funcional está cada vez mais presente em frameworks modernos. E com o JavaScript em constante evolução, os desenvolvedores cangaceiros estão sempre aprendendo novas formas de aprimorar a manutenção e legibilidade de seus códigos, armando-se de conceitos e técnicas para se aventurar em terras ainda mais avançadas e frameworks que possuem grande demanda no atual mercado de trabalho.</BookDescription>          
-          <ItemButton>Adicionar ao carrinho</ItemButton>
+          <BookName>{details[0].title}</BookName>
+          <BookPrice>{
+              new Intl.NumberFormat(
+                'pt-BR',
+                { style: 'currency', currency: 'BRL' }
+              ).format(details[0].price)
+            }</BookPrice>
+          <BookDescription>{details[0].description}</BookDescription>          
+          <ItemButton onClick={() => {addItem(details[0])}}>Adicionar ao carrinho</ItemButton>
         </DivDescription>
       </DivConteudo>
     </Container>
