@@ -1,0 +1,28 @@
+.menu {
+  height: 44px;
+  background: #0a1a6f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px;
+  
+}
+
+.menu-title {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu-total {
+    color: #FFF ;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;     
+    
+  }
+  .buttons-cart{
+    color: #FFF ;
+    text-decoration: none;  
+    
+  }
