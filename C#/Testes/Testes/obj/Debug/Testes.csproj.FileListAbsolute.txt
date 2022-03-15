@@ -1,0 +1,8 @@
+D:\Cuso C#\Testes\Testes\bin\Debug\Testes.exe.config
+D:\Cuso C#\Testes\Testes\bin\Debug\Testes.exe
+D:\Cuso C#\Testes\Testes\bin\Debug\Testes.pdb
+D:\Cuso C#\Testes\Testes\obj\Debug\Testes.csproj.AssemblyReference.cache
+D:\Cuso C#\Testes\Testes\obj\Debug\Testes.csproj.SuggestedBindingRedirects.cache
+D:\Cuso C#\Testes\Testes\obj\Debug\Testes.csproj.CoreCompileInputs.cache
+D:\Cuso C#\Testes\Testes\obj\Debug\Testes.exe
+D:\Cuso C#\Testes\Testes\obj\Debug\Testes.pdb

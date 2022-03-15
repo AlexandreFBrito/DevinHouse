@@ -1,0 +1,15 @@
+D:\Cuso C#\Moeda\Moeda\obj\Debug\net6.0\Moeda.csproj.AssemblyReference.cache
+D:\Cuso C#\Moeda\Moeda\obj\Debug\net6.0\Moeda.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cuso C#\Moeda\Moeda\obj\Debug\net6.0\Moeda.AssemblyInfoInputs.cache
+D:\Cuso C#\Moeda\Moeda\obj\Debug\net6.0\Moeda.AssemblyInfo.cs
+D:\Cuso C#\Moeda\Moeda\obj\Debug\net6.0\Moeda.csproj.CoreCompileInputs.cache
+D:\Cuso C#\Moeda\Moeda\bin\Debug\net6.0\Moeda.exe
+D:\Cuso C#\Moeda\Moeda\bin\Debug\net6.0\Moeda.deps.json
+D:\Cuso C#\Moeda\Moeda\bin\Debug\net6.0\Moeda.runtimeconfig.json
+D:\Cuso C#\Moeda\Moeda\bin\Debug\net6.0\Moeda.dll
+D:\Cuso C#\Moeda\Moeda\bin\Debug\net6.0\Moeda.pdb
+D:\Cuso C#\Moeda\Moeda\obj\Debug\net6.0\Moeda.dll
+D:\Cuso C#\Moeda\Moeda\obj\Debug\net6.0\refint\Moeda.dll
+D:\Cuso C#\Moeda\Moeda\obj\Debug\net6.0\Moeda.pdb
+D:\Cuso C#\Moeda\Moeda\obj\Debug\net6.0\Moeda.genruntimeconfig.cache
+D:\Cuso C#\Moeda\Moeda\obj\Debug\net6.0\ref\Moeda.dll

@@ -26,7 +26,7 @@ function Checkout() {
 
   useEffect(() => {
     async function handleGetPedidos() {
-      const response = await fetch('http://localhost:3333/pedidos')
+      const response = await fetch('http://localhost:3335/pedidos')
       const data = await response.json()
       setList(data)
     }
@@ -38,7 +38,7 @@ function Checkout() {
 
     // GET 
     try {
-      await fetch('http://localhost:3333/pedidos',
+      await fetch('http://localhost:3335/pedidos',
         {
           method: 'POST',
           body: JSON.stringify({

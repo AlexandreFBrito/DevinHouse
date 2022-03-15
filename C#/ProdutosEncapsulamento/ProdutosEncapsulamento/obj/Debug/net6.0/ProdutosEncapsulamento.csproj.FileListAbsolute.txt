@@ -1,0 +1,15 @@
+D:\Cuso C#\ProdutosEncapsulamento\ProdutosEncapsulamento\bin\Debug\net6.0\ProdutosEncapsulamento.exe
+D:\Cuso C#\ProdutosEncapsulamento\ProdutosEncapsulamento\bin\Debug\net6.0\ProdutosEncapsulamento.deps.json
+D:\Cuso C#\ProdutosEncapsulamento\ProdutosEncapsulamento\bin\Debug\net6.0\ProdutosEncapsulamento.runtimeconfig.json
+D:\Cuso C#\ProdutosEncapsulamento\ProdutosEncapsulamento\bin\Debug\net6.0\ProdutosEncapsulamento.dll
+D:\Cuso C#\ProdutosEncapsulamento\ProdutosEncapsulamento\bin\Debug\net6.0\ProdutosEncapsulamento.pdb
+D:\Cuso C#\ProdutosEncapsulamento\ProdutosEncapsulamento\obj\Debug\net6.0\ProdutosEncapsulamento.csproj.AssemblyReference.cache
+D:\Cuso C#\ProdutosEncapsulamento\ProdutosEncapsulamento\obj\Debug\net6.0\ProdutosEncapsulamento.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cuso C#\ProdutosEncapsulamento\ProdutosEncapsulamento\obj\Debug\net6.0\ProdutosEncapsulamento.AssemblyInfoInputs.cache
+D:\Cuso C#\ProdutosEncapsulamento\ProdutosEncapsulamento\obj\Debug\net6.0\ProdutosEncapsulamento.AssemblyInfo.cs
+D:\Cuso C#\ProdutosEncapsulamento\ProdutosEncapsulamento\obj\Debug\net6.0\ProdutosEncapsulamento.csproj.CoreCompileInputs.cache
+D:\Cuso C#\ProdutosEncapsulamento\ProdutosEncapsulamento\obj\Debug\net6.0\ProdutosEncapsulamento.dll
+D:\Cuso C#\ProdutosEncapsulamento\ProdutosEncapsulamento\obj\Debug\net6.0\refint\ProdutosEncapsulamento.dll
+D:\Cuso C#\ProdutosEncapsulamento\ProdutosEncapsulamento\obj\Debug\net6.0\ProdutosEncapsulamento.pdb
+D:\Cuso C#\ProdutosEncapsulamento\ProdutosEncapsulamento\obj\Debug\net6.0\ProdutosEncapsulamento.genruntimeconfig.cache
+D:\Cuso C#\ProdutosEncapsulamento\ProdutosEncapsulamento\obj\Debug\net6.0\ref\ProdutosEncapsulamento.dll

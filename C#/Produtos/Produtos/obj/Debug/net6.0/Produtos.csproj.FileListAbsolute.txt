@@ -1,0 +1,15 @@
+D:\Cuso C#\Produtos\Produtos\bin\Debug\net6.0\Produtos.exe
+D:\Cuso C#\Produtos\Produtos\bin\Debug\net6.0\Produtos.deps.json
+D:\Cuso C#\Produtos\Produtos\bin\Debug\net6.0\Produtos.runtimeconfig.json
+D:\Cuso C#\Produtos\Produtos\bin\Debug\net6.0\Produtos.dll
+D:\Cuso C#\Produtos\Produtos\bin\Debug\net6.0\Produtos.pdb
+D:\Cuso C#\Produtos\Produtos\obj\Debug\net6.0\Produtos.csproj.AssemblyReference.cache
+D:\Cuso C#\Produtos\Produtos\obj\Debug\net6.0\Produtos.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cuso C#\Produtos\Produtos\obj\Debug\net6.0\Produtos.AssemblyInfoInputs.cache
+D:\Cuso C#\Produtos\Produtos\obj\Debug\net6.0\Produtos.AssemblyInfo.cs
+D:\Cuso C#\Produtos\Produtos\obj\Debug\net6.0\Produtos.csproj.CoreCompileInputs.cache
+D:\Cuso C#\Produtos\Produtos\obj\Debug\net6.0\Produtos.dll
+D:\Cuso C#\Produtos\Produtos\obj\Debug\net6.0\refint\Produtos.dll
+D:\Cuso C#\Produtos\Produtos\obj\Debug\net6.0\Produtos.pdb
+D:\Cuso C#\Produtos\Produtos\obj\Debug\net6.0\Produtos.genruntimeconfig.cache
+D:\Cuso C#\Produtos\Produtos\obj\Debug\net6.0\ref\Produtos.dll
