@@ -1,0 +1,15 @@
+D:\DevinHouse\ExerciciosTrello\Modulo 2\Semana2\Ex11\Ex11\bin\Debug\net6.0\Ex11.exe
+D:\DevinHouse\ExerciciosTrello\Modulo 2\Semana2\Ex11\Ex11\bin\Debug\net6.0\Ex11.deps.json
+D:\DevinHouse\ExerciciosTrello\Modulo 2\Semana2\Ex11\Ex11\bin\Debug\net6.0\Ex11.runtimeconfig.json
+D:\DevinHouse\ExerciciosTrello\Modulo 2\Semana2\Ex11\Ex11\bin\Debug\net6.0\Ex11.dll
+D:\DevinHouse\ExerciciosTrello\Modulo 2\Semana2\Ex11\Ex11\bin\Debug\net6.0\Ex11.pdb
+D:\DevinHouse\ExerciciosTrello\Modulo 2\Semana2\Ex11\Ex11\obj\Debug\net6.0\Ex11.csproj.AssemblyReference.cache
+D:\DevinHouse\ExerciciosTrello\Modulo 2\Semana2\Ex11\Ex11\obj\Debug\net6.0\Ex11.GeneratedMSBuildEditorConfig.editorconfig
+D:\DevinHouse\ExerciciosTrello\Modulo 2\Semana2\Ex11\Ex11\obj\Debug\net6.0\Ex11.AssemblyInfoInputs.cache
+D:\DevinHouse\ExerciciosTrello\Modulo 2\Semana2\Ex11\Ex11\obj\Debug\net6.0\Ex11.AssemblyInfo.cs
+D:\DevinHouse\ExerciciosTrello\Modulo 2\Semana2\Ex11\Ex11\obj\Debug\net6.0\Ex11.csproj.CoreCompileInputs.cache
+D:\DevinHouse\ExerciciosTrello\Modulo 2\Semana2\Ex11\Ex11\obj\Debug\net6.0\Ex11.dll
+D:\DevinHouse\ExerciciosTrello\Modulo 2\Semana2\Ex11\Ex11\obj\Debug\net6.0\refint\Ex11.dll
+D:\DevinHouse\ExerciciosTrello\Modulo 2\Semana2\Ex11\Ex11\obj\Debug\net6.0\Ex11.pdb
+D:\DevinHouse\ExerciciosTrello\Modulo 2\Semana2\Ex11\Ex11\obj\Debug\net6.0\Ex11.genruntimeconfig.cache
+D:\DevinHouse\ExerciciosTrello\Modulo 2\Semana2\Ex11\Ex11\obj\Debug\net6.0\ref\Ex11.dll

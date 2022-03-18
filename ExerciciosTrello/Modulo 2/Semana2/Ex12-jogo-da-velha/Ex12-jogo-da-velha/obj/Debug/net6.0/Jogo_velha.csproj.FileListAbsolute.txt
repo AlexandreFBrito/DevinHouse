@@ -1,0 +1,15 @@
+D:\DevinHouse\ExerciciosTrello\Modulo 2\Semana2\Ex12-jogo-da-velha\Ex12-jogo-da-velha\obj\Debug\net6.0\Jogo_velha.csproj.AssemblyReference.cache
+D:\DevinHouse\ExerciciosTrello\Modulo 2\Semana2\Ex12-jogo-da-velha\Ex12-jogo-da-velha\obj\Debug\net6.0\Jogo_velha.GeneratedMSBuildEditorConfig.editorconfig
+D:\DevinHouse\ExerciciosTrello\Modulo 2\Semana2\Ex12-jogo-da-velha\Ex12-jogo-da-velha\obj\Debug\net6.0\Jogo_velha.AssemblyInfoInputs.cache
+D:\DevinHouse\ExerciciosTrello\Modulo 2\Semana2\Ex12-jogo-da-velha\Ex12-jogo-da-velha\obj\Debug\net6.0\Jogo_velha.AssemblyInfo.cs
+D:\DevinHouse\ExerciciosTrello\Modulo 2\Semana2\Ex12-jogo-da-velha\Ex12-jogo-da-velha\obj\Debug\net6.0\Jogo_velha.csproj.CoreCompileInputs.cache
+D:\DevinHouse\ExerciciosTrello\Modulo 2\Semana2\Ex12-jogo-da-velha\Ex12-jogo-da-velha\bin\Debug\net6.0\Jogo_velha.exe
+D:\DevinHouse\ExerciciosTrello\Modulo 2\Semana2\Ex12-jogo-da-velha\Ex12-jogo-da-velha\bin\Debug\net6.0\Jogo_velha.deps.json
+D:\DevinHouse\ExerciciosTrello\Modulo 2\Semana2\Ex12-jogo-da-velha\Ex12-jogo-da-velha\bin\Debug\net6.0\Jogo_velha.runtimeconfig.json
+D:\DevinHouse\ExerciciosTrello\Modulo 2\Semana2\Ex12-jogo-da-velha\Ex12-jogo-da-velha\bin\Debug\net6.0\Jogo_velha.dll
+D:\DevinHouse\ExerciciosTrello\Modulo 2\Semana2\Ex12-jogo-da-velha\Ex12-jogo-da-velha\bin\Debug\net6.0\Jogo_velha.pdb
+D:\DevinHouse\ExerciciosTrello\Modulo 2\Semana2\Ex12-jogo-da-velha\Ex12-jogo-da-velha\obj\Debug\net6.0\Jogo_velha.dll
+D:\DevinHouse\ExerciciosTrello\Modulo 2\Semana2\Ex12-jogo-da-velha\Ex12-jogo-da-velha\obj\Debug\net6.0\refint\Jogo_velha.dll
+D:\DevinHouse\ExerciciosTrello\Modulo 2\Semana2\Ex12-jogo-da-velha\Ex12-jogo-da-velha\obj\Debug\net6.0\Jogo_velha.pdb
+D:\DevinHouse\ExerciciosTrello\Modulo 2\Semana2\Ex12-jogo-da-velha\Ex12-jogo-da-velha\obj\Debug\net6.0\Jogo_velha.genruntimeconfig.cache
+D:\DevinHouse\ExerciciosTrello\Modulo 2\Semana2\Ex12-jogo-da-velha\Ex12-jogo-da-velha\obj\Debug\net6.0\ref\Jogo_velha.dll
