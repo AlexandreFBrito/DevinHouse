@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DevinHouse\\C#\\ContaBancaria\\ContaBancaria\\ContaBancaria.csproj": {}
+    "C:\\Users\\Suporte-Falcontas\\DevinHouse\\C#\\ContaBancaria\\ContaBancaria\\ContaBancaria.csproj": {}
   },
   "projects": {
-    "D:\\DevinHouse\\C#\\ContaBancaria\\ContaBancaria\\ContaBancaria.csproj": {
+    "C:\\Users\\Suporte-Falcontas\\DevinHouse\\C#\\ContaBancaria\\ContaBancaria\\ContaBancaria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DevinHouse\\C#\\ContaBancaria\\ContaBancaria\\ContaBancaria.csproj",
+        "projectUniqueName": "C:\\Users\\Suporte-Falcontas\\DevinHouse\\C#\\ContaBancaria\\ContaBancaria\\ContaBancaria.csproj",
         "projectName": "ContaBancaria",
-        "projectPath": "D:\\DevinHouse\\C#\\ContaBancaria\\ContaBancaria\\ContaBancaria.csproj",
-        "packagesPath": "C:\\Users\\Shoto\\.nuget\\packages\\",
-        "outputPath": "D:\\DevinHouse\\C#\\ContaBancaria\\ContaBancaria\\obj\\",
+        "projectPath": "C:\\Users\\Suporte-Falcontas\\DevinHouse\\C#\\ContaBancaria\\ContaBancaria\\ContaBancaria.csproj",
+        "packagesPath": "C:\\Users\\Suporte-Falcontas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Suporte-Falcontas\\DevinHouse\\C#\\ContaBancaria\\ContaBancaria\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Shoto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Suporte-Falcontas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
