@@ -1,0 +1,15 @@
+D:\DevinHouse\C#\RegistroFuncionario\RegistroFuncionario\bin\Debug\net6.0\RegistroFuncionario.exe
+D:\DevinHouse\C#\RegistroFuncionario\RegistroFuncionario\bin\Debug\net6.0\RegistroFuncionario.deps.json
+D:\DevinHouse\C#\RegistroFuncionario\RegistroFuncionario\bin\Debug\net6.0\RegistroFuncionario.runtimeconfig.json
+D:\DevinHouse\C#\RegistroFuncionario\RegistroFuncionario\bin\Debug\net6.0\RegistroFuncionario.dll
+D:\DevinHouse\C#\RegistroFuncionario\RegistroFuncionario\bin\Debug\net6.0\RegistroFuncionario.pdb
+D:\DevinHouse\C#\RegistroFuncionario\RegistroFuncionario\obj\Debug\net6.0\RegistroFuncionario.csproj.AssemblyReference.cache
+D:\DevinHouse\C#\RegistroFuncionario\RegistroFuncionario\obj\Debug\net6.0\RegistroFuncionario.GeneratedMSBuildEditorConfig.editorconfig
+D:\DevinHouse\C#\RegistroFuncionario\RegistroFuncionario\obj\Debug\net6.0\RegistroFuncionario.AssemblyInfoInputs.cache
+D:\DevinHouse\C#\RegistroFuncionario\RegistroFuncionario\obj\Debug\net6.0\RegistroFuncionario.AssemblyInfo.cs
+D:\DevinHouse\C#\RegistroFuncionario\RegistroFuncionario\obj\Debug\net6.0\RegistroFuncionario.csproj.CoreCompileInputs.cache
+D:\DevinHouse\C#\RegistroFuncionario\RegistroFuncionario\obj\Debug\net6.0\RegistroFuncionario.dll
+D:\DevinHouse\C#\RegistroFuncionario\RegistroFuncionario\obj\Debug\net6.0\refint\RegistroFuncionario.dll
+D:\DevinHouse\C#\RegistroFuncionario\RegistroFuncionario\obj\Debug\net6.0\RegistroFuncionario.pdb
+D:\DevinHouse\C#\RegistroFuncionario\RegistroFuncionario\obj\Debug\net6.0\RegistroFuncionario.genruntimeconfig.cache
+D:\DevinHouse\C#\RegistroFuncionario\RegistroFuncionario\obj\Debug\net6.0\ref\RegistroFuncionario.dll

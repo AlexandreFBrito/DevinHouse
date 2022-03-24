@@ -1,0 +1,15 @@
+D:\DevinHouse\C#\Matriz\Matriz\bin\Debug\net6.0\Matriz.exe
+D:\DevinHouse\C#\Matriz\Matriz\bin\Debug\net6.0\Matriz.deps.json
+D:\DevinHouse\C#\Matriz\Matriz\bin\Debug\net6.0\Matriz.runtimeconfig.json
+D:\DevinHouse\C#\Matriz\Matriz\bin\Debug\net6.0\Matriz.dll
+D:\DevinHouse\C#\Matriz\Matriz\bin\Debug\net6.0\Matriz.pdb
+D:\DevinHouse\C#\Matriz\Matriz\obj\Debug\net6.0\Matriz.csproj.AssemblyReference.cache
+D:\DevinHouse\C#\Matriz\Matriz\obj\Debug\net6.0\Matriz.GeneratedMSBuildEditorConfig.editorconfig
+D:\DevinHouse\C#\Matriz\Matriz\obj\Debug\net6.0\Matriz.AssemblyInfoInputs.cache
+D:\DevinHouse\C#\Matriz\Matriz\obj\Debug\net6.0\Matriz.AssemblyInfo.cs
+D:\DevinHouse\C#\Matriz\Matriz\obj\Debug\net6.0\Matriz.csproj.CoreCompileInputs.cache
+D:\DevinHouse\C#\Matriz\Matriz\obj\Debug\net6.0\Matriz.dll
+D:\DevinHouse\C#\Matriz\Matriz\obj\Debug\net6.0\refint\Matriz.dll
+D:\DevinHouse\C#\Matriz\Matriz\obj\Debug\net6.0\Matriz.pdb
+D:\DevinHouse\C#\Matriz\Matriz\obj\Debug\net6.0\Matriz.genruntimeconfig.cache
+D:\DevinHouse\C#\Matriz\Matriz\obj\Debug\net6.0\ref\Matriz.dll

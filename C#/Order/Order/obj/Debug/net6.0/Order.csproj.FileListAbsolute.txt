@@ -1,0 +1,15 @@
+D:\DevinHouse\C#\Order\Order\bin\Debug\net6.0\Order.exe
+D:\DevinHouse\C#\Order\Order\bin\Debug\net6.0\Order.deps.json
+D:\DevinHouse\C#\Order\Order\bin\Debug\net6.0\Order.runtimeconfig.json
+D:\DevinHouse\C#\Order\Order\bin\Debug\net6.0\Order.dll
+D:\DevinHouse\C#\Order\Order\bin\Debug\net6.0\Order.pdb
+D:\DevinHouse\C#\Order\Order\obj\Debug\net6.0\Order.csproj.AssemblyReference.cache
+D:\DevinHouse\C#\Order\Order\obj\Debug\net6.0\Order.GeneratedMSBuildEditorConfig.editorconfig
+D:\DevinHouse\C#\Order\Order\obj\Debug\net6.0\Order.AssemblyInfoInputs.cache
+D:\DevinHouse\C#\Order\Order\obj\Debug\net6.0\Order.AssemblyInfo.cs
+D:\DevinHouse\C#\Order\Order\obj\Debug\net6.0\Order.csproj.CoreCompileInputs.cache
+D:\DevinHouse\C#\Order\Order\obj\Debug\net6.0\Order.dll
+D:\DevinHouse\C#\Order\Order\obj\Debug\net6.0\refint\Order.dll
+D:\DevinHouse\C#\Order\Order\obj\Debug\net6.0\Order.pdb
+D:\DevinHouse\C#\Order\Order\obj\Debug\net6.0\Order.genruntimeconfig.cache
+D:\DevinHouse\C#\Order\Order\obj\Debug\net6.0\ref\Order.dll

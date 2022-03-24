@@ -1,0 +1,15 @@
+D:\DevinHouse\C#\PostComents\PostComents\bin\Debug\net6.0\PostComments.exe
+D:\DevinHouse\C#\PostComents\PostComents\bin\Debug\net6.0\PostComments.deps.json
+D:\DevinHouse\C#\PostComents\PostComents\bin\Debug\net6.0\PostComments.runtimeconfig.json
+D:\DevinHouse\C#\PostComents\PostComents\bin\Debug\net6.0\PostComments.dll
+D:\DevinHouse\C#\PostComents\PostComents\bin\Debug\net6.0\PostComments.pdb
+D:\DevinHouse\C#\PostComents\PostComents\obj\Debug\net6.0\PostComments.csproj.AssemblyReference.cache
+D:\DevinHouse\C#\PostComents\PostComents\obj\Debug\net6.0\PostComments.GeneratedMSBuildEditorConfig.editorconfig
+D:\DevinHouse\C#\PostComents\PostComents\obj\Debug\net6.0\PostComments.AssemblyInfoInputs.cache
+D:\DevinHouse\C#\PostComents\PostComents\obj\Debug\net6.0\PostComments.AssemblyInfo.cs
+D:\DevinHouse\C#\PostComents\PostComents\obj\Debug\net6.0\PostComments.csproj.CoreCompileInputs.cache
+D:\DevinHouse\C#\PostComents\PostComents\obj\Debug\net6.0\PostComments.dll
+D:\DevinHouse\C#\PostComents\PostComents\obj\Debug\net6.0\refint\PostComments.dll
+D:\DevinHouse\C#\PostComents\PostComents\obj\Debug\net6.0\PostComments.pdb
+D:\DevinHouse\C#\PostComents\PostComents\obj\Debug\net6.0\PostComments.genruntimeconfig.cache
+D:\DevinHouse\C#\PostComents\PostComents\obj\Debug\net6.0\ref\PostComments.dll
