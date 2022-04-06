@@ -1,0 +1,15 @@
+C:\Users\Suporte-Falcontas\Dev\DevinHouse\ExerciciosTrello\Modulo2\Semana3\Exercicio5\Exercicio5\bin\Debug\net6.0\Exercicio5.exe
+C:\Users\Suporte-Falcontas\Dev\DevinHouse\ExerciciosTrello\Modulo2\Semana3\Exercicio5\Exercicio5\bin\Debug\net6.0\Exercicio5.deps.json
+C:\Users\Suporte-Falcontas\Dev\DevinHouse\ExerciciosTrello\Modulo2\Semana3\Exercicio5\Exercicio5\bin\Debug\net6.0\Exercicio5.runtimeconfig.json
+C:\Users\Suporte-Falcontas\Dev\DevinHouse\ExerciciosTrello\Modulo2\Semana3\Exercicio5\Exercicio5\bin\Debug\net6.0\Exercicio5.dll
+C:\Users\Suporte-Falcontas\Dev\DevinHouse\ExerciciosTrello\Modulo2\Semana3\Exercicio5\Exercicio5\bin\Debug\net6.0\Exercicio5.pdb
+C:\Users\Suporte-Falcontas\Dev\DevinHouse\ExerciciosTrello\Modulo2\Semana3\Exercicio5\Exercicio5\obj\Debug\net6.0\Exercicio5.csproj.AssemblyReference.cache
+C:\Users\Suporte-Falcontas\Dev\DevinHouse\ExerciciosTrello\Modulo2\Semana3\Exercicio5\Exercicio5\obj\Debug\net6.0\Exercicio5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Suporte-Falcontas\Dev\DevinHouse\ExerciciosTrello\Modulo2\Semana3\Exercicio5\Exercicio5\obj\Debug\net6.0\Exercicio5.AssemblyInfoInputs.cache
+C:\Users\Suporte-Falcontas\Dev\DevinHouse\ExerciciosTrello\Modulo2\Semana3\Exercicio5\Exercicio5\obj\Debug\net6.0\Exercicio5.AssemblyInfo.cs
+C:\Users\Suporte-Falcontas\Dev\DevinHouse\ExerciciosTrello\Modulo2\Semana3\Exercicio5\Exercicio5\obj\Debug\net6.0\Exercicio5.csproj.CoreCompileInputs.cache
+C:\Users\Suporte-Falcontas\Dev\DevinHouse\ExerciciosTrello\Modulo2\Semana3\Exercicio5\Exercicio5\obj\Debug\net6.0\Exercicio5.dll
+C:\Users\Suporte-Falcontas\Dev\DevinHouse\ExerciciosTrello\Modulo2\Semana3\Exercicio5\Exercicio5\obj\Debug\net6.0\refint\Exercicio5.dll
+C:\Users\Suporte-Falcontas\Dev\DevinHouse\ExerciciosTrello\Modulo2\Semana3\Exercicio5\Exercicio5\obj\Debug\net6.0\Exercicio5.pdb
+C:\Users\Suporte-Falcontas\Dev\DevinHouse\ExerciciosTrello\Modulo2\Semana3\Exercicio5\Exercicio5\obj\Debug\net6.0\Exercicio5.genruntimeconfig.cache
+C:\Users\Suporte-Falcontas\Dev\DevinHouse\ExerciciosTrello\Modulo2\Semana3\Exercicio5\Exercicio5\obj\Debug\net6.0\ref\Exercicio5.dll
