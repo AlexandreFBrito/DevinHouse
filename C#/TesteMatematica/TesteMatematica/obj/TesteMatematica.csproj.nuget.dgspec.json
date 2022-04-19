@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Suporte-Falcontas\\DevinHouse\\C#\\TesteMatematica\\TesteMatematica\\TesteMatematica.csproj": {}
+    "C:\\Users\\Suporte-Falcontas\\Dev\\DevinHouse\\C#\\TesteMatematica\\TesteMatematica\\TesteMatematica.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Suporte-Falcontas\\DevinHouse\\C#\\TesteMatematica\\TesteMatematica\\TesteMatematica.csproj": {
+    "C:\\Users\\Suporte-Falcontas\\Dev\\DevinHouse\\C#\\TesteMatematica\\TesteMatematica\\TesteMatematica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Suporte-Falcontas\\DevinHouse\\C#\\TesteMatematica\\TesteMatematica\\TesteMatematica.csproj",
+        "projectUniqueName": "C:\\Users\\Suporte-Falcontas\\Dev\\DevinHouse\\C#\\TesteMatematica\\TesteMatematica\\TesteMatematica.csproj",
         "projectName": "TesteMatematica",
-        "projectPath": "C:\\Users\\Suporte-Falcontas\\DevinHouse\\C#\\TesteMatematica\\TesteMatematica\\TesteMatematica.csproj",
+        "projectPath": "C:\\Users\\Suporte-Falcontas\\Dev\\DevinHouse\\C#\\TesteMatematica\\TesteMatematica\\TesteMatematica.csproj",
         "packagesPath": "C:\\Users\\Suporte-Falcontas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Suporte-Falcontas\\DevinHouse\\C#\\TesteMatematica\\TesteMatematica\\obj\\",
+        "outputPath": "C:\\Users\\Suporte-Falcontas\\Dev\\DevinHouse\\C#\\TesteMatematica\\TesteMatematica\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
